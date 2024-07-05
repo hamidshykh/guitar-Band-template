@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+h3 {
+	font-family: 'Satisfy', cursive;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+/*=========================HEADER AREA===================*/
+
+#header {
+	width: 100%;
+	height: 100vh;
+	background: url("img/banner-bg.jpg") top center;
+	background-size: cover;
+	position: relative;
+	padding: 0;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.links {
+	text-align: left;
+}
+
+.link ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.links ul li {
+	display: inline-block;
+}
+
+.links ul li a {
+	display: block;
+	color: whitesmoke;
+	font-size: 14px;
+	padding: 40px 17px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.links ul li a:hover {
+	color: #d8ab25;
+	transition: 0.5s;
+}
+
+.social {
+	text-align: right;
+	clear: both;
+	margin-top: 40px;
+}
+
+.social a {
+	color: whitesmoke;
+	padding: 40px 5px 0px;
+}
+
+.social i {
+	font-size: 20px;
+	text-align: center;
+}
+
+.social i:hover {
+	color: #d8ab25;
+	transition: 0.5s;
+}
+
+/*=========================ABOUT AREA=====================*/
+
+#about {
+	padding-top: 50px;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+.abslider .img img {
+	text-align: center;
+	margin: auto;
+	padding: 0;
+
+}
+
+.bx-prev,
+.bx-next {
+	display: none;
+}
+
+
+/*==========================MUSIC AREA===================*/
+#music {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: whitesmoke;
+	background: url("img/music-bg.jpg");
+	background-size: cover;
+	position: relative;
+	padding: 50px 0px;
+}
+
+#music .vedio {
+	width: 60%;
+}
+
+/*=======================SHOWS AREA========================*/
+
+#shows {
+	width: 100%;
+	height: auto;
+	background: url("img/shows-bg.jpg");
+	background-size: cover;
+	position: relative;
+	padding: 50px 0px;
+}
+
+.table {
+	border: solid 2px black;
+	font-family: 'Arial', bold;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.table thead {
+	background-color: #6b6b6b;
+	font-size: 14px;
+}
+
+.table thead tr {
+	margin: 0;
+	padding: 0;
+}
+
+.table thead tr th {
+	padding: 0px 10px;
+}
+
+.table tbody {
+	background-color: #333333;
+	color: whitesmoke;
+	font-size: 12px;
+}
+
+.table tbody tr td {
+	text-align: center
+}
+
+/*==========================VEDIOS AREA=======================*/
+
+#vedios {
+	width: 100%;
+	height: auto;
+	background-color: #d8ab25;
+	background-size: cover;
+	position: relative;
+	padding: 50px 0px;
+
+}
+
+#vedios .container .row {
+	text-align: center;
+}
+
+#youtube {
+	width: 100%;
+	height: auto;
+	clear: both;
+	text-align: center;
+	margin: auto;
+}
+
+
+/*============================OAS AREA=========================*/
+#OAS {
+	padding-top: 50px;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+.slider {
+	max-width: 1100px;
+	display: flex;
+}
+
+.slider .card {
+	flex: 1;
+	margin: 0 10px;
+	background: #fff;
+}
+
+.slider .card .img {
+	height: 200px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.slider .card .img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+
+}
+
+/*=========================CONTACT AREA===================*/
+
+#contact {
+	width: 100%;
+	height: auto;
+	color: whitesmoke;
+	background-color: black;
+	background-size: cover;
+	position: relative;
+	padding: 50px 0px;
+}
+
+#contact .container .row .col-lg-6 p {
+	margin: 0;
+	padding: 0;
+}
+
+.social_area {
+	width: 100%;
+	clear: both;
+	margin-top: 10px;
+
+}
+
+.social_area a {
+
+	color: whitesmoke;
+}
+
+.social_area i {
+	font-size: 20px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+}
+
+.social_area i:hover {
+	color: #d8ab25;
+	transition: 0.5s;
+}
+
+.btn-warning {
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #d8ab25;
+	font-weight: 700;
+}
+
+/*========================FOOTER AREA====================*/
+
+#footer {
+	background-color: #d8ab25;
+	text-align: center;
+	padding: 10px 0px 3px;
+}
